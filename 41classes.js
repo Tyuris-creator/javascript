@@ -8,3 +8,6 @@ class Comment {
     }
 }
 
+const firstComment = new Comment('First comment');
+firstComment.upvote()
+console.log(firstComment.votesQty)
