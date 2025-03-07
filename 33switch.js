@@ -12,3 +12,13 @@ switch (month) {
     default:
         console.log('Это не зимний месяц!')
 }
+
+let a = 101
+
+if (a  > 100) {
+    console.log(2)
+}
+
+if (a > 10) {
+    console.log(1)
+}
