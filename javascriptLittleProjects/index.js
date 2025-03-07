@@ -1,3 +1,4 @@
+/*
 let x = 1;
 let y;
 let z;
@@ -54,9 +55,16 @@ let extraChars = username.slice(1);
 extraChars = extraChars.toLowerCase();
 username = letter + extraChars;
 console.log(username)
-
+*/
 // = assignement operator оператор присваивания
 // == comparison operator оператор сравнения
 // === strict equality operator (строгий оператор сравнения (сравнение не только значения но и типа данных))
 // != оператор неравенства inequality operator
 // !== строгий оператор неравенства strict inequality operator
+
+
+function happyBirtday(name, age) {
+    console.log(`Happy birthday ${name}, you are ${age} years old!`)
+}
+
+happyBirtday("Misha", 24);

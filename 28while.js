@@ -5,3 +5,9 @@ while (i < 5) {
     i++
 }
 
+for (let i = 0; i <= 5; i++) {
+    console.log(i);
+    //if (i === 4) {
+      //  break;
+    //}
+}
