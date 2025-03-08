@@ -17,4 +17,4 @@ const person3 = {...person} // spread оператор новая ссылка �
 const person4 = JSON.parse(JSON.stringify(person)) // это без мутаций объект в json, json в объект и все сохраняем в переменную
 
 person4.name = "Misha";
-console.log(person4)
+console.log(person3)
