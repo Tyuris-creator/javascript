@@ -1,0 +1,66 @@
+.container {
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: hsl(253, 70%, 82%);
+}
+
+h1 {
+    color: rebeccapurple
+}
+
+form {
+    text-align: center;
+    background-color: antiquewhite;
+    max-width: 350px;
+    margin:auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px hsla(270, 38%, 94%, 1);
+}
+
+#textBox {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    border: 5px solid hsla(286, 47%, 49%, 0.178);
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1.5em;
+    font-weight: bold;
+    align-self: flex-start;
+    width: 90%;
+}
+
+button {
+    margin-top: 15px;
+    background-color: beige;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+button:hover {
+    transform: scale(105%);
+    background-color: aquamarine;
+    color:blueviolet;
+    transition: 10s; 
+}
+
+#toFahrenheit, #toCelcius {
+    align-self: flex-start;
+}
+p {
+    width: 100%;
+    font-weight: bolder;
+    font-size: larger;
+}
