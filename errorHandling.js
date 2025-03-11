@@ -23,6 +23,9 @@ try {
     if(divisor === 0){
         throw new Error("You can't divide by zero!");
     }
+    if(isNaN(divident) || isNaN(divisor)){
+        throw new Error("Values must be integers!")
+    }
 
     const result = divident / divisor;
     console.log(result)
